@@ -123,12 +123,15 @@ hr {
 /** sections **/
 
 .section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .section h1 {
     text-align: center;
 
+}
+.section h3 {
+    text-align: top;
 }
 
 .ow {
@@ -137,33 +140,26 @@ hr {
 
 /** footers **/
 
-.footer {
-    background-color: var(--primary-color);
-    padding: 4rem 1rem;
+footer {
     text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
-}
-
-.footer .link {
-    color: white
-}
-
-.footer .footer-header {
-    font-weight: bold;
+  }
+  
+  footer p {
     font-size: large;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
-}
-
-/** projects **/
-.showcase-list {
-    padding: 2rem;
-}
-
-/** blogs **/
-.showcase-blog {
-    padding-bottom: 6rem;
-}
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.2rem;
+  }
